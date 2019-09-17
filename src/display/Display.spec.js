@@ -4,6 +4,8 @@ import { render } from "@testing-library/react";
 
 import Display from "./Display.js";
 
+
+
 describe('display component testing...', () => {
   it('Should render without error', () => {
     render(<Display />);
