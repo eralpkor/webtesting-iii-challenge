@@ -4,6 +4,16 @@ import { render } from "@testing-library/react";
 
 import Display from "./Display.js";
 
+
+// use snapshot
+test("matches snapshot", () => {
+  const { container } = render(<Display />);
+
+  expect(container).toMatchSnapshot();
+});
+
+
+
 describe('display component testing...', () => {
   it('Should render without error', () => {
     render(<Display />);

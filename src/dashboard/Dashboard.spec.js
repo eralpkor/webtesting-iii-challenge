@@ -20,7 +20,7 @@ test('Dashboard shows Controls...', () => {
 });
 
 
-
+// use snapshot
 test("matches snapshot", () => {
   const { container } = render(<Dashboard />);
 
